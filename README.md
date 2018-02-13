@@ -8,7 +8,7 @@ Run the ISC dhcp daemon in centos7
 
 Make sure you have a `</netservices/DHCP/cfg>` and `</netservices/DHCP/logs>` owned by `<dhcpd:dhcpd>` (`<177:177>`)
 
-## Build
+### Build
 
 ```
 docker build -t isc-dhcpd .
